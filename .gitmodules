@@ -1,0 +1,3 @@
+[submodule "commake"]
+	path = commake
+	url = git@github.com:llehtahw/commake.git
