@@ -3,9 +3,6 @@
 template <size_t...Sz>
 struct value_list { };
 
-template <size_t S, size_t...Sz>
-struct value_list<S, Sz...> { };
-
 
 template <typename, typename> struct value_list_cat;
 template <size_t...Sz1, size_t...Sz2>
